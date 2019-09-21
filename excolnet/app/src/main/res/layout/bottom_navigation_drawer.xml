@@ -10,7 +10,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#D8D8D8">
+        android:background="@color/colorPrimaryDark">
 
         <ImageView
             android:id="@+id/profile_image_bottom_sheet"
@@ -18,7 +18,7 @@
             android:layout_height="48dp"
             android:layout_centerVertical="true"
             android:layout_marginLeft="16dp"
-            android:src="@drawable/select_image"/>
+            android:src="@drawable/ic_profile" />
 
         <TextView
             android:id="@+id/user_name_bottom_sheet"
@@ -41,7 +41,7 @@
             android:layout_marginTop="2dp"
             android:layout_toLeftOf="@+id/close_image_view"
             android:layout_toRightOf="@+id/profile_image_bottom_sheet"
-            android:text="username@excolnet.com"/>
+            android:text="username@excolnet.com" />
 
 
         <ImageView
@@ -51,8 +51,8 @@
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
             android:padding="16dp"
-            android:visibility="gone"
-            android:src="@drawable/ic_close" />
+            android:src="@drawable/ic_close"
+            android:visibility="gone" />
 
         <View
             android:id="@+id/divider_one"
